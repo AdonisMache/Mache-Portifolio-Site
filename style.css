@@ -148,8 +148,7 @@ section {
   font-size: 1.6rem;
   margin: 2rem 0 4rem;
 }
-.btn-box,
-.btn-box-cert {
+.btn-box {
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -158,7 +157,6 @@ section {
 }
 
 .btn-box .btn,
-.btn-box-cert .btn,
 #education .content a {
   position: relative;
   display: inline-flex;
@@ -185,7 +183,7 @@ section {
   background: transparent;
   color: var(--main-color);
 }
-.btn-box-cert .btn:nth-child(2) {
+.btn-box-hire .btn:nth-child(2) {
   background: transparent;
   color: var(--main-color);
 }
@@ -220,6 +218,7 @@ section {
   width: 170px;
   display: flex;
   justify-content: space-between;
+  margin-top: 1rem;
 }
 
 .home-sci a {
